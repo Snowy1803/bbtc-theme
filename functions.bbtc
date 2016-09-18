@@ -1,0 +1,7 @@
+function localized(fr_FR: String?, en_US: String?, da_DK: String?, default: String?) -> String {
+	// Functions with optional parameters requires the use of labels
+}
+
+method Image.replaceColors(from: Color -> to: Color) {
+	// BB Parser ignores the type, but not BBTCE.
+}

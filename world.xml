@@ -1,0 +1,34 @@
+<theme>
+	<meta>
+		<id>bbtctest</id>
+		<name>
+			<fr_FR>FR Test</fr_FR>
+			<en_US>EN Test</en_US>
+			<da_DK>DA Test</da_DK>
+		</name>
+		<description>
+			<fr_FR>Les ballons ne disparaissent pas ? C'est réglé !</fr_FR>
+			<en_US>Baloons are not disappearing? Its fixed!</en_US>
+			<da_DK>Ballonerne går ikke væk? Ikke længere med det tema!</da_DK>
+		</description>
+		<version>2.0</version>
+		<author>Snowy</author>
+	</meta>
+	<images>
+		<icon src="cursor.gif"/>
+		<wicon src="closed.png"/>
+		<cursor src="cursor.gif"/>
+	</images>
+	<sound>
+		<pump default="true"/>
+		<wpump default="true"/>
+	</sound>
+	<baloons>
+		<baloon>
+			<closed src="closed.png"/>
+			<opened unicolor="empty"/>
+			<closedFake src="fake-closed.png"/>
+			<openedFake unicolor="empty"/>
+		</baloon>
+	</baloons>
+</theme>

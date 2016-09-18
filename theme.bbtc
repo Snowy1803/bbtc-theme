@@ -1,0 +1,75 @@
+theme.id = bbtctest
+theme.name = localized(fr_FR: FR Test, en_US: EN Test, da_DK: DA Test)
+theme.description = localized(fr_FR: Les ballons ne disparaissent pas ? C'est réglé !, en_US: Baloons are not disappearing? Its fixed!, da_DK: Ballonerne går ikke væk? Ikke længere med det tema!)
+theme.version = 2.0
+theme.author = Snowy
+
+/// The red baloon !!!
+/// @since 2.0
+val redBaloon = fileImage(closed)
+/// The FAKE red baloon (to mobile's random baloon)
+/// @since 2.0
+val redFakeBaloon = fileImage(fake-closed)
+
+image.icon=redBaloon
+image.wicon=fileImage(cursor.gif)
+image.cursor=fileImage(cursor.gif)
+image.baloons=[
+	0: {
+		closed = redBaloon
+		opened = emptyImage()
+		closedFake = redFakeBaloon
+		openedFake = emptyImage()
+		isset_set(extension.animationColor, 15539236)
+	}
+	1: {
+		closed = redBaloon
+		closed.replaceColors(15539236->COLOR_YELLOW)
+		opened = emptyImage()
+		opened.replaceColors(15539236->COLOR_YELLOW)
+		closedFake = redFakeBaloon
+		closedFake.replaceColors(15539236->COLOR_YELLOW)
+		openedFake = emptyImage()
+		isset_set(extension.animationColor, COLOR_YELLOW)
+	}
+	2: {
+		closed = redBaloon
+		closed.replaceColors(15539236->COLOR_BLUE)
+		opened = emptyImage()
+		opened.replaceColors(15539236->COLOR_BLUE)
+		closedFake = redFakeBaloon
+		closedFake.replaceColors(15539236->COLOR_BLUE)
+		openedFake = emptyImage()
+		isset_set(extension.animationColor, COLOR_BLUE)
+	}
+	3: {
+		closed = redBaloon
+		closed.replaceColors(15539236->COLOR_GREEN)
+		opened = emptyImage()
+		opened.replaceColors(15539236->COLOR_GREEN)
+		closedFake = redFakeBaloon
+		closedFake.replaceColors(15539236->COLOR_GREEN)
+		openedFake = emptyImage()
+		isset_set(extension.animationColor, COLOR_GREEN)
+	}
+	4: {
+		closed = redBaloon
+		closed.replaceColors(15539236->COLOR_PINK)
+		opened = emptyImage()
+		opened.replaceColors(15539236->COLOR_PINK)
+		closedFake = redFakeBaloon
+		closedFake.replaceColors(15539236->COLOR_PINK)
+		openedFake = emptyImage()
+		isset_set(extension.animationColor, COLOR_PINK)
+	}
+	5: {
+		closed = redBaloon
+		closed.replaceColors(15539236->COLOR_PURPLE)
+		opened = emptyImage()
+		opened.replaceColors(15539236->COLOR_PURPLE)
+		closedFake = redFakeBaloon
+		closedFake.replaceColors(15539236->COLOR_PURPLE)
+		openedFake = emptyImage()
+		isset_set(extension.animationColor, COLOR_PURPLE)
+	}
+]
