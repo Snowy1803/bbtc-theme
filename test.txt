@@ -1,1 +1,1 @@
-I hate JWindows
+I hate AWT
